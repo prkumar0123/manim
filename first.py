@@ -5,7 +5,7 @@ import random
 
 FLAGS = "-pql"
 SCENE = "Positioning"
-
+#base class
 class MyScene(Scene):
     def small_pause(self, n=0.5):
         self.wait(n)
